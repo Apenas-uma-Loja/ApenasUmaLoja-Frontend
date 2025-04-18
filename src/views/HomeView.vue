@@ -1,8 +1,8 @@
 <script setup>
+import HeroComp from '@/components/HeroView/HeroComp.vue';
 </script>
 
+
 <template>
-  <main>
-    home
-  </main>
+  <HeroComp />
 </template>
