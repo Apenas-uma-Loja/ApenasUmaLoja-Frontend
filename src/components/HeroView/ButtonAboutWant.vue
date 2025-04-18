@@ -11,7 +11,6 @@
 .container {
     width: 100%;
     height: 25%;
-    background-color: rgb(73, 15, 56);
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -22,7 +21,6 @@
     height: 100%;
     display: flex;
     align-items: flex-end;
-    background-color: rgb(190, 172, 172);
 }
 
 button {

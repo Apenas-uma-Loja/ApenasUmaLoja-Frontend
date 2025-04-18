@@ -15,7 +15,6 @@
  .container {
     width: 100%;
     height: 100%;
-    background-color: rgba(139, 47, 24, 0.555);
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -36,7 +35,6 @@ p {
 .title-description {
     width: 80%;
     height: 50%;
-    background-color: rgba(26, 25, 25, 0.555);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

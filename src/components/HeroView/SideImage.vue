@@ -8,10 +8,12 @@
 
 div {
     grid-row: 2 / 3 span;
+    display: flex;
+    align-items: flex-end;
 }
 
 img {
-    width:  35.7vw;
+    width:  750px;
     height: auto;
     object-position: center;
     

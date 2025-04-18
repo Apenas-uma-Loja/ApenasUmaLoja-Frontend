@@ -53,18 +53,15 @@ import InfoCupom from './InfoCupom.vue';
 .container-hero-title-description {
     width: 100%;
     height: 60%;
-    background-color: rgba(139, 47, 24, 0.555);
 }
 
 .container-hero-button-info {
     width: 100%;    
     height: 40%;
-    background-color: rgba(0, 0, 255, 0.466);
 }
 
 .container-hero-info-cupom {
     width: 100%;
     height: 50%;
-    background-color: rgba(217, 217, 233, 0.466);
 }
 </style>

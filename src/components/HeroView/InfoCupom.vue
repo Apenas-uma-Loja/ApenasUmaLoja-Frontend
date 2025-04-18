@@ -30,5 +30,6 @@ p {
     font-weight: 600;
     font-style: italic;
     font-size: 1.6rem;
+    color: rgba(203, 203, 203, 0.52);
 }
 </style>
