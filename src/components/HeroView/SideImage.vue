@@ -8,11 +8,10 @@
 
 div {
     grid-row: 2 / 3 span;
-    margin-right: 3rem;
 }
 
 img {
-    width:  35vw;
+    width:  35.7vw;
     height: auto;
     object-position: center;
     
