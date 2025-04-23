@@ -1,8 +1,9 @@
 <script setup>
+import FooterComp from '../components/footer/FooterComp.vue';
 </script>
 
 <template>
   <main>
-    home
+    <FooterComp />
   </main>
 </template>
