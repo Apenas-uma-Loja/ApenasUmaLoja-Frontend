@@ -2,9 +2,11 @@
  import NavFooter from './NavFooter.vue';
  import SocialFooter from './SocialFooter.vue';
  import CreditsFooter from './CreditsFooter.vue';
+ import TitleFooter from './TitleFooter.vue';
 </script>
 <template>
     <footer>
+        <TitleFooter />
         <NavFooter />
         <SocialFooter />
         <CreditsFooter />
@@ -27,5 +29,10 @@
     .container-credits {
         grid-row: 2;
         grid-column: 4;
+    }
+
+    .container-title {
+        grid-row: 1;
+        grid-column: 1 / 2 span;
     }
 </style>
