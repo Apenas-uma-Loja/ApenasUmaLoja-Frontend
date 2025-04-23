@@ -14,4 +14,21 @@ import HeaderIcons from './HeaderIcons.vue';
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    height: 5.5rem;
+    padding: 2rem;
+}
+
+.left {
+    width: 80%;
+}
+
+.right {
+    width: 20%;
+}
+</style>
