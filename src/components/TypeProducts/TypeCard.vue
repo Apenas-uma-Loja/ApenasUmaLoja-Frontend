@@ -28,7 +28,7 @@ defineProps({
 <style scoped>
 .type-card {
     width: 85%;
-    padding: .5rem 1rem; 
+    padding: .5rem 1rem 0 1rem; 
     margin: auto;
     height: 16rem;
     display: grid;
@@ -50,6 +50,9 @@ defineProps({
     /* align-items: center; */
     text-align: start;
 }
+.text > p{
+    color: white
+}
 .text h2{
     font-size: 1.5rem;
     font-weight: 600;
@@ -58,9 +61,43 @@ defineProps({
 }
 .caracter-image{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     display: flex; 
-    justify-content: center;
-    align-items: center;
+    /* padding: 0; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+@media screen and (max-width: 768px) {
+    .type-card {
+        width: 100%;
+        height: 15rem;
+        padding: 0;
+        margin: auto;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        grid-template-columns: 1fr 1fr;
+    }
+    .text{
+        width: 100%;
+        height: 100%;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    .text h2{
+        font-size: 1.5rem;
+    }
+    .caracter-image{
+        width: 100%;
+        height: 100%;
+    }
+    .caracter-image > img{
+        width: 100%;
+        height: 90%;
+    }
+    
 }
 </style>

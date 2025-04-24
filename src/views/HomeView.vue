@@ -4,7 +4,6 @@ import TypeProductsComp from '@/components/TypeProducts/TypeProductsComp.vue';
 
 <template>
   <main>
-    home
     <TypeProductsComp />
   </main>
 </template>
