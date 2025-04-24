@@ -7,9 +7,9 @@ import HeroComp from '@/components/HeroView/HeroComp.vue';
 
 <template>
   <main>
-    <TypeProductsComp />
-    <FooterComp />
     <HeaderComp />
     <HeroComp />
+    <TypeProductsComp />
+    <FooterComp />
   </main>
 </template>
