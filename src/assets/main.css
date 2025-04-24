@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.inter-extra-bold-800 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inter-semi-bold-600 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
