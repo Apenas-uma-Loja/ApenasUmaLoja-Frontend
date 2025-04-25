@@ -22,14 +22,14 @@
 
 h1 {
     color: white;
-    font-size: 5rem;
+    font-size: 500%;
 }
 
 p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 150%;
     letter-spacing: 2px;
-    margin-top: 1rem;
+    margin-top: 1%;
 }
 
 .title-description {
