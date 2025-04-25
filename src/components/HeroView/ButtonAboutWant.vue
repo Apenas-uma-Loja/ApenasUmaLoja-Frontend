@@ -24,9 +24,9 @@
 }
 
 button {
-    width: 16rem;
-    height: 5rem;
-    font-size: 2rem;
+    width: 35%;
+    height: 80%;
+    font-size: 200%;
     border-radius: 15px;
     border: none;
     cursor: pointer;
@@ -37,13 +37,13 @@ button {
 }
 
 .want-button {
-    margin-right: 2rem;
+    margin-right: 5%;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
 .about-button {
-    margin-left: 2rem;
+    margin-left: 5%;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }

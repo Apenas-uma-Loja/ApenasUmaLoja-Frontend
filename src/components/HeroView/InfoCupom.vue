@@ -29,7 +29,7 @@ p {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: italic;
-    font-size: 1.6rem;
+    font-size: 150%;
     color: rgba(203, 203, 203, 0.52);
 }
 </style>
