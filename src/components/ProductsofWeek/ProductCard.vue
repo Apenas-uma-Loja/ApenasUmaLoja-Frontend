@@ -1,21 +1,29 @@
 <script setup>
 import { ref } from 'vue';
+defineProps({
+    product: {
+        type: Object,
+        required: true
+    }
+});
 </script>
 <template>
     <div class="container-product-card">
-        <div class="image-product"></div>
-        <p class="title-product">Action figure Mordecai 30x10cm edição de aniversário</p>
+        <div class="image-product">
+            <img :src=product.imageUrl alt="" style="width: 100%; height: 100%; border-radius: 15px 15px 0 0;">
+        </div>
+        <p class="title-product">{{ product.name }}</p>
         <div class="price-product">
-            <p class="old-price">R$ 0,00</p>
-            <p class="price">R$ 0,00</p>
-            <div class="payment"><img src="/public/Magnetic-Card.png" alt=""><p>ou R$ 125,90 até 3x de R$ 40,30</p></div>
+            <p class="old-price">{{ product.oldPrice.toFixed(2).replace('.', ',') }}</p>
+            <p class="price">{{ product.price.toFixed(2).replace('.', ',') }}</p>
+            <div class="payment"><img src='/public/Magnetic-Card.png' alt=""><p>ou R$ 125,90 até 3x de R$ 40,30</p></div>
         </div>
         <button class="access-product">VER</button>
     </div>
 </template>
 <style scoped>
 .container-product-card {
-    width: 18%;
+    width: 22%;
     height: 25rem;
     padding: 1rem;
     display: flex;
@@ -92,5 +100,36 @@ import { ref } from 'vue';
     background-color: #000;
     color: #fff;
     transition: background-color 0.3s ease, color 0.3s ease;
+}
+@media screen and (max-width: 768px) {
+    .container-product-card {
+        width: 90%;
+        height: 30rem;
+        margin: 1rem 0;
+    }
+    .image-product {
+        width: 80%;
+        height: 60%;
+    }
+    .title-product {
+        font-size: 1.2rem;
+    }
+    .price-product {
+        height: 20%;
+    }
+    .old-price {
+        font-size: 1rem;
+    }
+    .price {
+        font-size: 1.5rem;
+    }
+    .payment > p{
+        font-size: 0.8rem;
+    }
+    .access-product {
+        height: 15%;
+        font-size: 1rem;
+        margin: 1rem 0 .5rem 0;
+    }
 }
 </style>
