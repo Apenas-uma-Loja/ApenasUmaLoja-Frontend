@@ -10,7 +10,7 @@ import { ref } from 'vue';
             <p class="price">R$ 0,00</p>
             <div class="payment"><img src="/public/Magnetic-Card.png" alt=""><p>ou R$ 125,90 até 3x de R$ 40,30</p></div>
         </div>
-        <button class="access-product"></button>
+        <button class="access-product">VER</button>
     </div>
 </template>
 <style scoped>
@@ -23,7 +23,7 @@ import { ref } from 'vue';
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
-    /* border-radius: 15px; */
+    border-radius: 10px;
     border: 4px solid #fff;
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
 }
@@ -38,7 +38,7 @@ import { ref } from 'vue';
 }
 .title-product {
     /* width: 90%; */
-    height: 20%;
+    /* height: 20%; */
     color: white;
     font-size: 15px;
     /* font-weight: 600; */
@@ -80,8 +80,8 @@ import { ref } from 'vue';
     width: 100%;
     height: 10%;
     margin: 1rem 0;
-    background-color: #fff;
-    color: #000;
+    background-color: #540756;
+    color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
     border-radius: 15px;
