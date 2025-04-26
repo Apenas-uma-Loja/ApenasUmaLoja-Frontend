@@ -17,3 +17,7 @@ import ProductsComp from '@/components/ProductsofWeek/ProductsComp.vue';
     <FooterComp />
   </main>
 </template>
+
+<style scoped>
+ 
+</style>

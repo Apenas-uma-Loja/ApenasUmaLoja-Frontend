@@ -1,7 +1,7 @@
 
 <template>
     <div class="container-title">
-        <h1>REGULAR SHOP</h1>
+        <img src="/public/REGULAR SHOP.png">
     </div>
 </template>
 <style scoped>
@@ -12,12 +12,6 @@
     width: 60%;
 
 }
-   h1 {
-    font-family: 'ComedyShow';
-    font-weight: normal;
-    font-style: normal;
-    color: white;
-    font-size: 4rem;
-}
+   
 
 </style>
