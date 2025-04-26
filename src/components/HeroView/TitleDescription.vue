@@ -22,12 +22,12 @@
 
 h1 {
     color: white;
-    font-size: 500%;
+    font-size: 400%;
 }
 
 p {
     color: white;
-    font-size: 150%;
+    font-size: 100%;
     letter-spacing: 2px;
     margin-top: 1%;
 }
@@ -38,5 +38,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 3%;
 }
 </style>

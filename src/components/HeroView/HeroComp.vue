@@ -48,6 +48,7 @@ import InfoCupom from './InfoCupom.vue';
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
+    justify-items: end;
 }
 
 .container-hero-title-description {

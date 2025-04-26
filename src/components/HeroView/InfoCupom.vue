@@ -13,6 +13,7 @@
     height: 30%;
     display: flex;
     justify-content: center;
+    margin-top: 3%;
 }
 
 .info-cupom {
@@ -29,7 +30,7 @@ p {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: italic;
-    font-size: 150%;
+    font-size: 125%;
     color: rgba(203, 203, 203, 0.52);
 }
 </style>

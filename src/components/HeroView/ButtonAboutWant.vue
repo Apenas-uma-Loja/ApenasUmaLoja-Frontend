@@ -10,7 +10,7 @@
 <style scoped>
 .container {
     width: 100%;
-    height: 25%;
+    height: 30%;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -25,9 +25,9 @@
 
 button {
     width: 35%;
-    height: 80%;
-    font-size: 200%;
-    border-radius: 15px;
+    height: 70%;
+    font-size: 150%;
+    border-radius: 9px;
     border: none;
     cursor: pointer;
     font-family: "Inter", sans-serif;
