@@ -95,11 +95,12 @@ defineProps({
     border-radius: 15px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
 }
 .access-product:hover {
     background-color: #000;
     color: #fff;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 @media screen and (max-width: 768px) {
     .container-product-card {
