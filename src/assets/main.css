@@ -17,3 +17,9 @@
   font-weight: 600;
   font-style: normal;
 }
+.inter-semi-bold-italic {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+}
