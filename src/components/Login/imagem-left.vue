@@ -3,16 +3,16 @@
 </script>
 
 <template>
-    <span class="container">
-    </span>
+    <span class="container-left"></span>
 </template>
 
 <style scoped>
 
-.container {
+.container-left {
     width: 100%;
     height: 100%;
     background-image: url('/public/Sideimage.png');
+    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
