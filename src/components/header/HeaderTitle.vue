@@ -4,7 +4,7 @@
 
 <template>
     <div class="container">
-        <h1>REGULAR SHOP</h1>
+        <img src="/public/REGULAR SHOP.png">
     </div>
 </template>
 
@@ -13,15 +13,12 @@
 .container {
     display: flex;
     align-items: center;
+    margin-left: 5%;
 }
 
-h1 {
-    font-family: 'ComedyShow';
-    font-weight: normal;
-    font-style: normal;
-    color: white;
-    font-size: 4.5rem;
-    margin-bottom: 1rem;
+@media (max-width: 400px) {
+    .container {
+        margin-left: 0;
+    }
 }
-
 </style>

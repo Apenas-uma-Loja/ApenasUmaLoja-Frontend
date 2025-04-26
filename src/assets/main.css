@@ -25,3 +25,7 @@
   font-weight: 600;
   font-style: normal;
 }
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
