@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue';
+
 defineProps({
     product: {
         type: Object,
