@@ -4,7 +4,7 @@
 
 <template>
     <div class="container">
-        <div class="cart">
+        <div class="cart" @click="$router.push('/cart')">
             <img src="/public/Vector.svg">
         </div>
         <div class="user">
