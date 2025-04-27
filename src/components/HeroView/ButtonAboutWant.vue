@@ -10,7 +10,7 @@
 <style scoped>
 .container {
     width: 100%;
-    height: 25%;
+    height: 30%;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -24,10 +24,10 @@
 }
 
 button {
-    width: 16rem;
-    height: 5rem;
-    font-size: 2rem;
-    border-radius: 15px;
+    width: 35%;
+    height: 70%;
+    font-size: 150%;
+    border-radius: 9px;
     border: none;
     cursor: pointer;
     font-family: "Inter", sans-serif;
@@ -37,14 +37,36 @@ button {
 }
 
 .want-button {
-    margin-right: 2rem;
+    margin-right: 5%;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
 .about-button {
-    margin-left: 2rem;
+    margin-left: 5%;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+}
+
+@media (max-width: 700px) {
+    button {
+        width: 40%;
+        height: 60%;
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .want-about {
+        justify-content: center;
+        align-items: center;
+        font-size: 90%;
+    }
+
+    button {
+        width: 50%;
+        height: 50%;
+        font-size: 100%;
+    }
 }
 </style>

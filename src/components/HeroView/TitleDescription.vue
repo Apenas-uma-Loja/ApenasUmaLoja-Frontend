@@ -22,14 +22,14 @@
 
 h1 {
     color: white;
-    font-size: 5rem;
+    font-size: 400%;
 }
 
 p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 100%;
     letter-spacing: 2px;
-    margin-top: 1rem;
+    margin-top: 1%;
 }
 
 .title-description {
@@ -38,5 +38,38 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 3%;
+}
+
+@media (max-width: 1250px) {
+    h1 {
+        font-size: 350%;
+    }
+
+    p {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 300%;
+    }
+
+    p {
+        font-size: 70%;
+    }
+}
+@media (max-width: 580px) {
+    h1 {
+        font-size: 250%;
+        text-align: center;
+    }
+
+    p {
+        font-size: 60%;
+        text-align: center;
+    }
+
 }
 </style>

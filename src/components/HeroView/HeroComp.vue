@@ -48,6 +48,7 @@ import InfoCupom from './InfoCupom.vue';
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
+    justify-items: end;
 }
 
 .container-hero-title-description {
@@ -63,5 +64,24 @@ import InfoCupom from './InfoCupom.vue';
 .container-hero-info-cupom {
     width: 100%;
     height: 50%;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1250px) {
+    .container-right {
+        display: none;
+    }
+
+    .container-hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-left {
+        width: 70%;
+    }
 }
 </style>

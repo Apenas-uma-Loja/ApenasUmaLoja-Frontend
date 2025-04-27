@@ -10,12 +10,14 @@ div {
     grid-row: 2 / 3 span;
     display: flex;
     align-items: flex-end;
+    margin-right: 5%;
 }
 
 img {
-    width:  750px;
+    width:  100%;
     height: auto;
     object-position: center;
     
 }
+
 </style>

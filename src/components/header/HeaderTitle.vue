@@ -16,5 +16,10 @@
     margin-left: 5%;
 }
 
+@media (max-width: 400px) {
+    .container {
+        margin-left: 0;
+    }
+}
 
 </style>
