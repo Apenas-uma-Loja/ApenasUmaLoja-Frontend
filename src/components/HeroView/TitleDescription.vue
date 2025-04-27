@@ -40,4 +40,36 @@ p {
     justify-content: flex-end;
     margin-bottom: 3%;
 }
+
+@media (max-width: 1250px) {
+    h1 {
+        font-size: 350%;
+    }
+
+    p {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 300%;
+    }
+
+    p {
+        font-size: 70%;
+    }
+}
+@media (max-width: 580px) {
+    h1 {
+        font-size: 250%;
+        text-align: center;
+    }
+
+    p {
+        font-size: 60%;
+        text-align: center;
+    }
+
+}
 </style>

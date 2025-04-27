@@ -33,4 +33,19 @@ p {
     font-size: 125%;
     color: rgba(203, 203, 203, 0.52);
 }
+
+@media (max-width: 700px) {
+
+    p {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+
+p {
+    font-size: 80%;
+    text-align: center;
+}
+}
 </style>

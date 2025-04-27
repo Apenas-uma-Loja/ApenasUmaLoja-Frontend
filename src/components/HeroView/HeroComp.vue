@@ -65,4 +65,23 @@ import InfoCupom from './InfoCupom.vue';
     width: 100%;
     height: 50%;
 }
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1250px) {
+    .container-right {
+        display: none;
+    }
+
+    .container-hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-left {
+        width: 70%;
+    }
+}
 </style>

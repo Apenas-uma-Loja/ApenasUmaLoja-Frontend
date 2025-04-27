@@ -47,4 +47,26 @@ button {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
+
+@media (max-width: 700px) {
+    button {
+        width: 40%;
+        height: 60%;
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .want-about {
+        justify-content: center;
+        align-items: center;
+        font-size: 90%;
+    }
+
+    button {
+        width: 50%;
+        height: 50%;
+        font-size: 100%;
+    }
+}
 </style>
