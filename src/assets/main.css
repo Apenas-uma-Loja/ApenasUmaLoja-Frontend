@@ -17,6 +17,11 @@
   font-weight: 600;
   font-style: normal;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .inter-semi-bold-italic {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
