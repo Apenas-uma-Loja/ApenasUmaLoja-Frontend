@@ -24,8 +24,18 @@ defineProps({
 .product-image {
     width: 80%;
     height: 80%;
-    /* border-radius: 10px; */
-    /* object-fit: cover; */
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+
+}
+@media screen and (max-width: 768px) {
+    .container-image {
+        width: 100%;
+        height: 50vh;
+        margin-top: 5rem;
+    }
+    .product-image {
+        width: 90%;
+        height: 90%;
+    }
+    
 }
 </style>

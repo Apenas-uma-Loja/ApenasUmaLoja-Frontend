@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue';
+import { RouterLink } from 'vue-router';
 
 const menuAberto = ref(false);
 
@@ -12,11 +13,14 @@ function toggleMenu() {
     <div class="container">
         <nav class="nav-bar">
             <ul>
-                <li class="cart">
+                <li class="cart" @click="$router.push('/cart')">
                     <img src="/public/Vector.svg" />
                 </li>
-                <li class="user">
+                <li class="user" @click="$router.push('/login')">
                     <img src="/public/Vector-2.svg" />
+                </li>
+                <li class="cart" @click="$router.push('/products')">
+                    <img src="/public/shopping-bag.png" alt="" class="shop-bag">
                 </li>
                 <li class="menu" @click="toggleMenu">
                     <div class="hamburguer" :class="{ 'open': menuAberto }">
@@ -30,8 +34,9 @@ function toggleMenu() {
 
         <nav class="menu-responsivo" v-if="menuAberto">
             <ul>
-                <li><a href="#">Entrar</a></li>
-                <li><a href="#">Carrinho</a></li>
+                <li><RouterLink to="/login">Entrar</RouterLink></li>
+                <li><RouterLink to="/cart">Carrinho</RouterLink></li>
+                <li><RouterLink to="/products">Produtos</RouterLink></li>
             </ul>
         </nav>
     </div>
@@ -39,6 +44,10 @@ function toggleMenu() {
 </template>
 
 <style scoped>
+.shop-bag {
+    width: 50px;
+    height: 50px;
+}
 ul {
     display: flex;
     justify-content: space-around;
@@ -124,7 +133,7 @@ li {
         right: 0;
         width: 40%;
         height: 30vh;
-        background-color: #0F0B12;
+        background-color: #000;
         display: flex;
         justify-content: center;
         align-items: center;

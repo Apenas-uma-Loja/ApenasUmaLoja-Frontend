@@ -1,5 +1,4 @@
 <script setup>
-// import LoginComp from '@/components/Login/LoginComp.vue';
 import TypeProductsComp from '@/components/TypeProducts/TypeProductsComp.vue';
 import FooterComp from '../components/footer/FooterComp.vue';
 import HeroComp from '@/components/HeroView/HeroComp.vue';
@@ -9,7 +8,6 @@ import CharacteristicsComp from '@/components/CharacteristicsofProducts/Characte
 
 <template>
   <main>
-    <!-- <LoginComp /> -->
     <HeroComp />
     <TypeProductsComp />
     <ProductsComp />

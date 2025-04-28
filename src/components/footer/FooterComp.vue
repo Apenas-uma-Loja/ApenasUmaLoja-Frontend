@@ -35,4 +35,20 @@
         grid-row: 1;
         grid-column: 1 / 2 span;
     }
+    @media screen and (max-width: 1000px) {
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .container-title {
+            width: 90%;
+        }
+        .container-credits {
+            width: 90%;
+        }
+        
+    }
 </style>

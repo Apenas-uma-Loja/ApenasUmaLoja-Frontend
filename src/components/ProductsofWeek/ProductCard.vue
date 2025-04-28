@@ -34,24 +34,17 @@ defineProps({
     background-color: rgb(0, 0, 0);
     border-radius: 10px;
     border: 4px solid #fff;
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
 }
 .image-product {
     width: 70%;
     height: 50%;
     background-color: white;
-    /* background-image: url('/public/mordecai-boneco.png'); */
     background-size: cover;
     background-position: center;
-    /* border-radius: 15px 15px 0 0; */
 }
 .title-product {
-    /* width: 90%; */
-    /* height: 20%; */
     color: white;
     font-size: 15px;
-    /* font-weight: 600; */
-    /* text-align: center; */
     margin: 0.5rem 0;
 }
 .price-product {
@@ -60,7 +53,6 @@ defineProps({
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
 }
 .old-price {
     color: #595959;
@@ -76,7 +68,6 @@ defineProps({
     width: 100%;
     height: 20%;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 .payment > p{

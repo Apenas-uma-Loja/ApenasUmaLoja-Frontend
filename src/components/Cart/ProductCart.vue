@@ -23,8 +23,6 @@ defineProps({product: Object});
     height: 8rem;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     background-color: #0E0E0E;
     border-radius: 10px;
     color: white;
@@ -70,5 +68,26 @@ defineProps({product: Object});
 .remove-product:hover {
     background-color: #1E1E1E;
 }
-
+@media screen and (max-width: 1000px) {
+    .container-cart-product {
+        width: 90%;
+        min-height: 10rem;
+    }
+    .info-section {
+        width: 100%;
+        height: 60%;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .btn-section {
+        width: 100%;
+        height: 40%;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .remove-product{
+        padding: .25rem;
+    }
+    
+}
 </style>
