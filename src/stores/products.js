@@ -14,6 +14,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/bermuda-mordecai.png',
                 quantity: ref(100),
+                categorie: 'clothes',
             },
             {
                 id: 2,
@@ -23,6 +24,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/camisa-musculoso.png',
                 quantity: ref(100),
+                categorie: 'clothes',
             },
             {
                 id: 3,
@@ -32,6 +34,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/camisa-rigby.png',
                 quantity: ref(100),
+                categorie: 'clothes',
             },
             {
                 id: 4,
@@ -41,6 +44,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/moletom-regularshow.png',
                 quantity: ref(100),
+                categorie: 'clothes',
             },
             {
                 id: 5,
@@ -50,6 +54,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/figure-benson.png',
                 quantity: ref(100),
+                categorie: 'toys',
             },
             {
                 id: 6,
@@ -59,6 +64,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/figure-mordecai.png',
                 quantity: ref(100),
+                categorie: 'toys',
             },
             {
                 id: 7,
@@ -68,6 +74,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/figure-rigby.png',
                 quantity: ref(100),
+                categorie: 'toys',
             },
             {
                 id: 8,
@@ -77,6 +84,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/pelucia-saltitao.png',
                 quantity: ref(100),
+                categorie: 'toys',
             },
             {
                 id: 9,
@@ -86,6 +94,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/bone-azul.png',
                 quantity: ref(100),
+                categorie: 'accessories',
             },
             {
                 id: 10,
@@ -95,6 +104,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/bolsa-pairulito.png',
                 quantity: ref(100),
+                categorie: 'accessories',
             },
             {
                 id:11,
@@ -104,6 +114,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/caneca-cafe.png',
                 quantity: ref(100),
+                categorie: 'accessories',
             },
             {
                 id: 12,
@@ -113,6 +124,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/mochila-rigby.png',
                 quantity: ref(100),
+                categorie: 'accessories',
             },
             {
                 id: 13,
@@ -122,6 +134,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/capinha-celular.png',
                 quantity: ref(100),
+                categorie: 'arts',
             },
             {
                 id: 14,
@@ -131,6 +144,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/carteira-rigby.png',
                 quantity: ref(100),
+                categorie: 'arts',
             },
             {
                 id: 15,
@@ -140,6 +154,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/poster-mordecai.png',
                 quantity: ref(100),
+                categorie: 'arts',
             },
             {
                 id: 16,
@@ -149,6 +164,7 @@ export const useProductStore = defineStore('product', () => {
                 oldPrice: 150.00,
                 imageUrl: '/public/products-images/quadro-colorido.png',
                 quantity: ref(100),
+                categorie: 'arts',
             }
 
         ],
@@ -158,6 +174,10 @@ export const useProductStore = defineStore('product', () => {
     })
     const cart = ref(JSON.parse(localStorage.getItem('cart')) || [])
     const cartTotal = ref(0)
+    const clothes = computed(() => state.products.filter(product => product.categorie === 'clothes'))
+    const toys = computed(() => state.products.filter(product => product.categorie === 'toys'))
+    const accessories = computed(() => state.products.filter(product => product.categorie === 'accessories'))
+    const arts = computed(() => state.products.filter(product => product.categorie === 'arts'))
 
     watch(cart, (newCart) => {
         localStorage.setItem('cart', JSON.stringify(newCart))
@@ -184,8 +204,8 @@ export const useProductStore = defineStore('product', () => {
     const calculateTotal = () => {
        cartTotal.value = cart.value.reduce((total, item) => total + (item.price * item.quantity), 0)
     }
-    const productDetail = (id) =>{
-        router.push({ name: 'ProductDetail', params: { productId: id } })
+    const productDetail = (product) =>{
+        router.push({ name: 'ProductDetail', params: { productId: product.id } })
     }
     return {
         state,
@@ -198,5 +218,9 @@ export const useProductStore = defineStore('product', () => {
         productDetail,
         cart,
         cartTotal,
+        clothes,
+        toys,
+        accessories,
+        arts,
     }
 })

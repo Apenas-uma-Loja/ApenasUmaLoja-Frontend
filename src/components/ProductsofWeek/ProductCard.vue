@@ -1,6 +1,10 @@
 <script setup>
 import { ref } from 'vue';
+import { useProductStore } from '@/stores/products';
+import { useRoute } from 'vue-router';
+import router from '@/router';
 
+const productStore = useProductStore();
 defineProps({
     product: {
         type: Object,
@@ -13,13 +17,13 @@ defineProps({
         <div class="image-product">
             <img :src=product.imageUrl alt="" style="width: 100%; height: 100%; border-radius: 15px 15px 0 0;">
         </div>
-        <p class="title-product">{{ product.name }}</p>
+        <p class="title-product">{{ product.title }}</p>
         <div class="price-product">
             <p class="old-price">{{ product.oldPrice.toFixed(2).replace('.', ',') }}</p>
             <p class="price">{{ product.price.toFixed(2).replace('.', ',') }}</p>
             <div class="payment"><img src='/public/Magnetic-Card.png' alt=""><p>ou R$ 125,90 até 3x de R$ 40,30</p></div>
         </div>
-        <button class="access-product">VER</button>
+        <button class="access-product" @click="router.push({ name: 'ProductDetail', params: { productId: product.id } })" >VER</button>
     </div>
 </template>
 <style scoped>

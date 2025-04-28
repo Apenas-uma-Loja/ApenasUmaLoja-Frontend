@@ -3,7 +3,7 @@ import TypeCard from './TypeCard.vue'
 </script>
 <template>
   <section>
-    <h1>CONFIRA AQUI OS NOSSOS PRODUTOS ORGANIZADOS POR SETOR</h1>
+    <h1>CONFIRA AQUI OS NOSSOS SETORES DE PRODUTOS</h1>
     <div class="container">
       <TypeCard title="ROUPAS" imageUrl='/public/musculoso-image.png' color="#97D841" />
       <TypeCard title="FIGURES" imageUrl='/public/mordecai2.png' color="#4DA7FF" />

@@ -19,7 +19,7 @@ function toggleMenu() {
                 <li class="user" @click="$router.push('/login')">
                     <img src="/public/Vector-2.svg" />
                 </li>
-                <li class="cart" @click="$router.push('/products')">
+                <li class="cart" @click="$router.push('/feed')">
                     <img src="/public/shopping-bag.png" alt="" class="shop-bag">
                 </li>
                 <li class="menu" @click="toggleMenu">
@@ -36,7 +36,7 @@ function toggleMenu() {
             <ul>
                 <li><RouterLink to="/login">Entrar</RouterLink></li>
                 <li><RouterLink to="/cart">Carrinho</RouterLink></li>
-                <li><RouterLink to="/products">Produtos</RouterLink></li>
+                <li><RouterLink to="/feed">Produtos</RouterLink></li>
             </ul>
         </nav>
     </div>

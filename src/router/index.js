@@ -12,7 +12,7 @@ const router = createRouter({
     {
       path: '/product/:productId',
       name: 'ProductDetail',
-      component: () => import('../views/ProductDetailView.vue'),
+      component: () => import('../views/ProductDetailview.vue'),
       props: true,
     },
     {
@@ -24,6 +24,11 @@ const router = createRouter({
       path: '/login',
       name: 'Login',
       component: () => import('../views/LoginView.vue'),
+    },
+    {
+      path: '/feed',
+      name: 'FeedProducts',
+      component: () => import('../views/FeedProductsView.vue'),
     }
   ],
 })

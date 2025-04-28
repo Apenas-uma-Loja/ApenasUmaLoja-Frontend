@@ -1,35 +1,9 @@
 <script setup>
 import ProductCard from '@/components/ProductsofWeek/ProductCard.vue';
-const exampleProducts = [
-    {
-        id: 1,
-        name: 'Action figure Mordecai 30x10cm edição de aniversário',
-        price: 125.90,
-        oldPrice: 150.00,
-        imageUrl: '/public/mordecai2.png',
-    },
-    {
-        id: 2,
-        name: 'Action figure Rigby 30x10cm edição de aniversário',
-        price: 125.90,
-        oldPrice: 150.00,
-        imageUrl: '/public/rigby-boneco.png',
-    },
-    {
-        id: 2,
-        name: 'Action figure Rigby 30x10cm edição de aniversário',
-        price: 125.90,
-        oldPrice: 150.00,
-        imageUrl: '/public/rigby-boneco.png',
-    },
-    {
-        id: 2,
-        name: 'Action figure Rigby 30x10cm edição de aniversário',
-        price: 125.90,
-        oldPrice: 150.00,
-        imageUrl: '/public/rigby-boneco.png',
-    },
-];
+import { useProductStore } from '@/stores/products';
+
+const productStore = useProductStore();
+const exampleProducts = productStore.arts
 </script>
 <template>
     <section>
