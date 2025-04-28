@@ -6,7 +6,7 @@ const exampleProducts = [
         name: 'Action figure Mordecai 30x10cm edição de aniversário',
         price: 125.90,
         oldPrice: 150.00,
-        imageUrl: '/public/mordecai-boneco.png',
+        imageUrl: '/public/mordecai2.png',
     },
     {
         id: 2,
@@ -29,7 +29,6 @@ const exampleProducts = [
         oldPrice: 150.00,
         imageUrl: '/public/rigby-boneco.png',
     },
-    // Adicione mais produtos conforme necessário
 ];
 </script>
 <template>

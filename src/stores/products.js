@@ -159,7 +159,6 @@ export const useProductStore = defineStore('product', () => {
     const cart = ref(JSON.parse(localStorage.getItem('cart')) || [])
     const cartTotal = ref(0)
 
-    // salvar o carrinho no localStorage sempre que mudar
     watch(cart, (newCart) => {
         localStorage.setItem('cart', JSON.stringify(newCart))
     }, { deep: true })

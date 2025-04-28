@@ -36,16 +36,23 @@
         grid-column: 1 / 2 span;
     }
 
-@media (max-width: 768px) {
+    @media screen and (max-width: 1000px) {
         footer {
-            height: auto;
-            width: 100%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            height: 100%;
             padding: 1rem;
         }
-
+            
+        }
+        .container-title {
+            width: 90%;
+        }
+        .container-credits {
+            width: 90%;
+        }
+        
     }
 </style>

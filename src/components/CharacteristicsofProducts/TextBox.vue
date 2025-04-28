@@ -22,7 +22,6 @@ defineProps({
         height: 50%;
         padding: 1rem;
         gap: 1rem;
-        /* background: #000; */
         display: flex;
         flex-direction: column;
         justify-content: start;

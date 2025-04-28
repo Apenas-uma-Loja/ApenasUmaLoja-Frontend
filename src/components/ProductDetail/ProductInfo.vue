@@ -34,7 +34,6 @@ defineProps({
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
-    /* align-items: center; */
     background-color: #0E0E0E;
     border-radius: 10px;
     color: white;
@@ -57,7 +56,6 @@ defineProps({
     font-size: 1.2rem;
     text-decoration: line-through;
     color: #595959;
-    /* margin-bottom: 1rem; */
 }
 .price-info{
     font-size: 1.8rem;
@@ -68,16 +66,12 @@ defineProps({
     width: 100%;
     height: 2rem;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 .input-quantity input{
     width: 100%;
     height: 100%;
     border-radius: 10px;
     border: none;
-    /* background-color: #0E0E0E; */
-    /* color: white; */
     font-size: 1rem;
     padding-left: 1rem;
 }

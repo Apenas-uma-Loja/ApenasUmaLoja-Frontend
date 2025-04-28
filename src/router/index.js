@@ -15,11 +15,18 @@ const router = createRouter({
       component: () => import('../views/CartView.vue'),
       // props: true,
     },
+    
     {
       path: '/feed',
       name: 'Feed',
       component: () => import('@/views/FeedProduct.vue'),
     },
+    
+    {
+      path: '/login',
+      name: 'Login',
+      component: () => import('../views/LoginView.vue'),
+    }
   ],
 })
 
