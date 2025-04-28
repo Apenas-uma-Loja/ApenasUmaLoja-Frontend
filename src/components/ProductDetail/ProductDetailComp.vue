@@ -28,7 +28,7 @@ const currentProduct = computed(() => {
 <style scoped>
 section {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 1rem;
     background: #000;
     display: flex;
@@ -44,5 +44,15 @@ section {
     grid-template-columns: 2fr 1fr;
     gap: 1rem;
 
+}
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    section {
+        padding: 1rem;
+    }
+    
 }
 </style>

@@ -4,7 +4,12 @@ import TypeCard from './TypeCard.vue'
 <template>
   <section>
     <h1>CONFIRA AQUI OS NOSSOS PRODUTOS ORGANIZADOS POR SETOR</h1>
-    <div class="container"><TypeCard title="ROUPAS" imageUrl='/public/musculoso-image.png' color="#97D841" /><TypeCard title="FIGURES" imageUrl='/public/mordecai-boneco.png' color="#4DA7FF" /><TypeCard title="ACESSÓRIOS" imageUrl='/public/rigby-boneco.png' color="#967549" /><TypeCard title="ARTES" imageUrl='/public/mordecai-pintor.png' color="#FFE815" /></div>
+    <div class="container">
+      <TypeCard title="ROUPAS" imageUrl='/public/musculoso-image.png' color="#97D841" />
+      <TypeCard title="FIGURES" imageUrl='/public/mordecai2.png' color="#4DA7FF" />
+      <TypeCard title="ACESSÓRIOS" imageUrl='/public/rigby-boneco.png' color="#967549" />
+      <TypeCard title="ARTES" imageUrl='/public/mordecai-pintor.png' color="#FFE815" />
+    </div>
   </section>
 </template>
 <style scoped>

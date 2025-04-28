@@ -15,8 +15,6 @@ import CharacteristicsImage from './CharacteristicsImage.vue';
     section {
         width: 100%;
         height: 100%;
-        /* padding: 1rem; */
-        /* background: #000; */
         background-image: url(/public/Group-5.png);
         background-size: cover;
         background-repeat: no-repeat;

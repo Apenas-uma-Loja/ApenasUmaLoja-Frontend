@@ -47,7 +47,7 @@ window.addEventListener('scroll', function() {
 }
 
 #header-container.scrolled {
-  background-color: #0F0B12; 
+  background-color: #000; 
 }
 
 /* RESPONSIVIDADE */

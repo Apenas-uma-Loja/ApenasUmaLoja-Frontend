@@ -4,7 +4,7 @@
 
 <template>
     <div class="container">
-        <img src="/public/REGULAR SHOP.png">
+        <img src="/public/REGULAR SHOP.png" @click="$router.push('/')" alt="Logo" class="logo" />
     </div>
 </template>
 

@@ -9,8 +9,9 @@
 .container-title {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 60%;
-
+    margin-top: .5rem;
 }
    
 

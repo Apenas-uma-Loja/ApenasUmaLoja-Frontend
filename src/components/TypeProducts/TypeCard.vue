@@ -36,10 +36,6 @@ defineProps({
     align-items: center;
     background-color: transparent;
     border-bottom: 4px solid;
-    
-    /* border-radius: 8px; */
-    /* cursor: pointer; */
-    /* transition: background-color 0.3s ease; */
 }
 .text{
     width: 100%;
@@ -47,7 +43,6 @@ defineProps({
     display: flex; 
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     text-align: start;
 }
 .text > p{
@@ -61,11 +56,7 @@ defineProps({
 }
 .caracter-image{
     width: 100%;
-    /* height: 100%; */
     display: flex; 
-    /* padding: 0; */
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 @media screen and (max-width: 768px) {
     .type-card {
@@ -73,10 +64,6 @@ defineProps({
         height: 15rem;
         padding: 0;
         margin: auto;
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-content: center; */
-        /* align-items: center; */
         grid-template-columns: 1fr 1fr;
     }
     .text{
@@ -85,7 +72,6 @@ defineProps({
         display: flex; 
         flex-direction: column;
         justify-content: center;
-        /* text-align: center; */
     }
     .text h2{
         font-size: 1.5rem;
