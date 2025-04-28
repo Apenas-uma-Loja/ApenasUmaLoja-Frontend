@@ -35,4 +35,17 @@
         grid-row: 1;
         grid-column: 1 / 2 span;
     }
+
+@media (max-width: 768px) {
+        footer {
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+        }
+
+    }
 </style>
