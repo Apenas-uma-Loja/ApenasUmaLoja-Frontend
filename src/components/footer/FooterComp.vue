@@ -35,6 +35,7 @@
         grid-row: 1;
         grid-column: 1 / 2 span;
     }
+
     @media screen and (max-width: 1000px) {
         footer {
             display: flex;
@@ -42,6 +43,9 @@
             justify-content: center;
             align-items: center;
             height: 100%;
+            padding: 1rem;
+        }
+            
         }
         .container-title {
             width: 90%;
