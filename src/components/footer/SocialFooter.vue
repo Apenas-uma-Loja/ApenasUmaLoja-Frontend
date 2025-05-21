@@ -7,7 +7,7 @@
        <div class="container-img">
             <a href=""><img src="/public/Instagram.svg"></a>
             <a href=""><img src="/public/Twitter.svg"></a>
-            <a href=""><img src="/public/GithHub.svg"></a>
+            <a href=""><img src="/public/GitHub.svg"></a>
             <a href=""><img src="/public/LinkedIn.svg"></a>
        </div>
     </div>
