@@ -20,7 +20,7 @@ import InputRight from './input-right.vue';
 .container {
     width: 100%;
     height: 100vh;
-    background-image: url('/public/background-login.png');
+    background-image: url('/src/assets/background-login.png');
     background-size: cover;
     display: flex;
     justify-content: center;

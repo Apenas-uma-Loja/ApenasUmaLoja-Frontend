@@ -7,7 +7,7 @@ const exampleProducts = productStore.arts
 </script>
 <template>
     <section>
-        <img src="/public/OFERTAS-DA-SEMANA.png" alt="" class="title">
+        <img src="/src/assets/OFERTAS-DA-SEMANA.png" alt="" class="title">
         <p class="subtitle">CONFIRA NOSSOS MELHORES DESCONTOS EXCLUSIVOS DESSA SEMANA. CORRE QUE ELES EXPIRAM LOGO!</p>
         <div class="container-products">
             <ProductCard v-for="product in exampleProducts" :key="product.id" :product="product" />

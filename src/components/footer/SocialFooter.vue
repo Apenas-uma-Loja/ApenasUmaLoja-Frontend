@@ -5,10 +5,10 @@
     <div class="container">
         <h1 class="inter-semi-bold-600" >+55 11 9999-9999</h1>
        <div class="container-img">
-            <a href=""><img src="/public/Instagram.svg"></a>
-            <a href=""><img src="/public/Twitter.svg"></a>
-            <a href=""><img src="/public/GitHub.svg"></a>
-            <a href=""><img src="/public/LinkedIn.svg"></a>
+            <a href=""><img src="/src/assets/Instagram.svg"></a>
+            <a href=""><img src="/src/assets/Twitter.svg"></a>
+            <a href=""><img src="/src/assets/GitHub.svg"></a>
+            <a href=""><img src="/src/assets/LinkedIn.svg"></a>
        </div>
     </div>
 </template>

@@ -28,7 +28,7 @@ import InfoCupom from './InfoCupom.vue';
 .container-hero {
     width: 100%;
     height: 100vh;
-    background-image: url('../../../public/BackGroundImage.png');
+    background-image: url('../../../src/assets/BackGroundImage.png');
     background-size: cover;
 }
 

@@ -21,7 +21,7 @@ defineProps({
         <div class="price-product">
             <p class="old-price">{{ product.oldPrice.toFixed(2).replace('.', ',') }}</p>
             <p class="price">{{ product.price.toFixed(2).replace('.', ',') }}</p>
-            <div class="payment"><img src='/public/Magnetic-Card.png' alt=""><p>ou R$ 125,90 até 3x de R$ 40,30</p></div>
+            <div class="payment"><img src='/src/assets/Magnetic-Card.png' alt=""><p>ou R$ 125,90 até 3x de R$ 40,30</p></div>
         </div>
         <button class="access-product" @click="router.push({ name: 'ProductDetail', params: { productId: product.id } })" >VER</button>
     </div>

@@ -14,13 +14,13 @@ function toggleMenu() {
         <nav class="nav-bar">
             <ul>
                 <li class="cart" @click="$router.push('/cart')">
-                    <img src="/public/Vector.svg" />
+                    <img src="/src/assets/Vector.svg" />
                 </li>
                 <li class="user" @click="$router.push('/login')">
-                    <img src="/public/Vector-2.svg" />
+                    <img src="/src/assets/Vector-2.svg" />
                 </li>
                 <li class="cart" @click="$router.push('/feed')">
-                    <img src="/public/shopping-bag.png" alt="" class="shop-bag">
+                    <img src="/src/assets/shopping-bag.png" alt="" class="shop-bag">
                 </li>
                 <li class="menu" @click="toggleMenu">
                     <div class="hamburguer" :class="{ 'open': menuAberto }">

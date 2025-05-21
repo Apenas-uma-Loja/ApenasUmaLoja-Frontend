@@ -15,7 +15,7 @@ import CharacteristicsImage from './CharacteristicsImage.vue';
     section {
         width: 100%;
         height: 100%;
-        background-image: url(/public/Group-5.png);
+        background-image: url(/src/assets/Group-5.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

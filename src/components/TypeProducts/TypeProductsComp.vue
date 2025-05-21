@@ -5,10 +5,10 @@ import TypeCard from './TypeCard.vue'
   <section>
     <h1>CONFIRA AQUI OS NOSSOS SETORES DE PRODUTOS</h1>
     <div class="container">
-      <TypeCard title="ROUPAS" imageUrl='/public/musculoso-image.png' color="#97D841" />
-      <TypeCard title="FIGURES" imageUrl='/public/mordecai2.png' color="#4DA7FF" />
-      <TypeCard title="ACESSÓRIOS" imageUrl='/public/rigby-boneco.png' color="#967549" />
-      <TypeCard title="ARTES" imageUrl='/public/mordecai-pintor.png' color="#FFE815" />
+      <TypeCard title="ROUPAS" imageUrl='/src/assets/musculoso-image.png' color="#97D841" />
+      <TypeCard title="FIGURES" imageUrl='/src/assets/mordecai2.png' color="#4DA7FF" />
+      <TypeCard title="ACESSÓRIOS" imageUrl='/src/assets/rigby-boneco.png' color="#967549" />
+      <TypeCard title="ARTES" imageUrl='/src/assets/mordecai-pintor.png' color="#FFE815" />
     </div>
   </section>
 </template>

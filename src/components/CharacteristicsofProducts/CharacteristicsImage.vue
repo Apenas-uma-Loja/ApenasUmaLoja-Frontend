@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
     <div class="image-container">
-        <img src="/public/image-16.png" alt="">
+        <img src="/src/assets/image-16.png" alt="">
     </div>
 </template>
 <style scoped>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="/public/personagens-home.png" alt="">
+        <img src="/src/assets/personagens-home.png" alt="">
     </div>
 </template>
 

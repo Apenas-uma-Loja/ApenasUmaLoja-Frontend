@@ -10,7 +10,7 @@ defineProps({
     },
     imageUrl: {
         type: String,
-        default: '/public/musculoso-image.png'
+        default: '/src/assets/musculoso-image.png'
     },
     color:{
         type: String,
