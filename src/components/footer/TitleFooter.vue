@@ -1,7 +1,7 @@
 
 <template>
     <div class="container-title">
-        <img src="/public/REGULAR SHOP.png">
+        <img src="/logo.png">
     </div>
 </template>
 <style scoped>
