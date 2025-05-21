@@ -1,6 +1,6 @@
 <script setup>
 import ImagemLeft from './imagem-left.vue';
-import InputRight from './Input-right.vue';
+import InputRight from './input-right.vue';
 </script>
 
 <template>
